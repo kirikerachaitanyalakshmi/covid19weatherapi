@@ -1,0 +1,30 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+ 
+    section {
+        display: flex;
+        background: lightyellow;
+        padding: 10px;
+        flex-direction: inherit;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 1px 1px 3px 1px #ccc;
+}
+#covidblock section div{
+    background-color: palevioletred;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 1px skyblue;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 5px;
+    border: 1px solid #ccc;
+    font-size: medium;
+}
+#covidblock{
+    display: flex;
+}
